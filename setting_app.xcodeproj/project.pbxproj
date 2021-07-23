@@ -15,6 +15,10 @@
 		8435BE14269DD25B00B82AA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8435BE12269DD25B00B82AA2 /* LaunchScreen.storyboard */; };
 		8435BE1F269DD25C00B82AA2 /* setting_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435BE1E269DD25C00B82AA2 /* setting_appTests.swift */; };
 		8435BE2A269DD25C00B82AA2 /* setting_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435BE29269DD25C00B82AA2 /* setting_appUITests.swift */; };
+		8435BE44269DD33300B82AA2 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435BE42269DD33300B82AA2 /* ProfileCell.swift */; };
+		8435BE45269DD33300B82AA2 /* ProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8435BE43269DD33300B82AA2 /* ProfileCell.xib */; };
+		8435BE4B269DDDC000B82AA2 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435BE49269DDDC000B82AA2 /* MenuCell.swift */; };
+		8435BE4C269DDDC000B82AA2 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8435BE4A269DDDC000B82AA2 /* MenuCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		8435BE25269DD25C00B82AA2 /* setting_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = setting_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8435BE29269DD25C00B82AA2 /* setting_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setting_appUITests.swift; sourceTree = "<group>"; };
 		8435BE2B269DD25C00B82AA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8435BE42269DD33300B82AA2 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		8435BE43269DD33300B82AA2 /* ProfileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCell.xib; sourceTree = "<group>"; };
+		8435BE49269DDDC000B82AA2 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		8435BE4A269DDDC000B82AA2 /* MenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +112,11 @@
 				8435BE0B269DD25800B82AA2 /* ViewController.swift */,
 				8435BE0D269DD25800B82AA2 /* Main.storyboard */,
 				8435BE10269DD25B00B82AA2 /* Assets.xcassets */,
+				8435BE49269DDDC000B82AA2 /* MenuCell.swift */,
+				8435BE4A269DDDC000B82AA2 /* MenuCell.xib */,
 				8435BE12269DD25B00B82AA2 /* LaunchScreen.storyboard */,
+				8435BE42269DD33300B82AA2 /* ProfileCell.swift */,
+				8435BE43269DD33300B82AA2 /* ProfileCell.xib */,
 				8435BE15269DD25B00B82AA2 /* Info.plist */,
 			);
 			path = setting_app;
@@ -232,6 +244,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8435BE14269DD25B00B82AA2 /* LaunchScreen.storyboard in Resources */,
+				8435BE45269DD33300B82AA2 /* ProfileCell.xib in Resources */,
+				8435BE4C269DDDC000B82AA2 /* MenuCell.xib in Resources */,
 				8435BE11269DD25B00B82AA2 /* Assets.xcassets in Resources */,
 				8435BE0F269DD25800B82AA2 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8435BE0C269DD25800B82AA2 /* ViewController.swift in Sources */,
+				8435BE4B269DDDC000B82AA2 /* MenuCell.swift in Sources */,
+				8435BE44269DD33300B82AA2 /* ProfileCell.swift in Sources */,
 				8435BE08269DD25800B82AA2 /* AppDelegate.swift in Sources */,
 				8435BE0A269DD25800B82AA2 /* SceneDelegate.swift in Sources */,
 			);
