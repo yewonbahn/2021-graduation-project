@@ -57,8 +57,14 @@ extension ViewController: UITableViewDelegate,UITableViewDataSource{
         return settingModel.count
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        if indexPath.section == 1 && indexPath.row == 0 {
+        tableView.deselectRow(at: indexPath, animated: true)
+        if indexPath.section == 0 && indexPath.row == 0 {
+            
+            let myidVC = MyIDViewController(nibName: "MyIDViewController", bundle: nil)
+            
+            self.present(myidVC, animated: true, completion: nil)
+            
+        }else if indexPath.section == 1 && indexPath.row == 0 {
             
             if let generalVC = UIStoryboard(name: "GeneralViewController", bundle: nil).instantiateViewController(identifier: "GeneralViewController")
                 as? GeneralViewController{
